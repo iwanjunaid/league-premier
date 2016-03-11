@@ -1,17 +1,17 @@
+var Horseman = require('node-horseman');
 var async = require('async');
 var fs = require('fs');
 var path = require('path');
 
-function Scraper(Driver) {
-  this.Driver = Driver;
-  this.session = new Driver({
+function Scraper() {
+  this.session = new Horseman({
     timeout: 60000
   });
   this.helpers = {};
 };
 
-module.exports = function(Driver) {
-  return new Scraper(Driver);
+module.exports = function() {
+  return new Scraper();
 };
 
 Scraper.prototype.init = function(initCb) {

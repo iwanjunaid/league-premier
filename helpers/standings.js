@@ -7,7 +7,6 @@ function Standings(scraper) {
 
 function parse(data, cb) {
   $ = cheerio.load(data);
-
   var res = [];
 
   $('.standing-table__row').each(function(index, elm) {

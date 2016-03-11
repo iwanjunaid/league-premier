@@ -4,7 +4,7 @@
   "description": "Scraper for Premiere League",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha test/**/*.spec"
+    "test": "NODE_ENV=test mocha test/**/*.js"
   },
   "repository": {
     "type": "git",

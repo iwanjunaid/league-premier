@@ -1,5 +1,4 @@
-var Horseman = require('node-horseman');
-var scraper = require('../scraper')(Horseman);
+var scraper = require('../scraper')();
 var assert = require('assert');
 
 global.assert = assert;
