@@ -25,8 +25,7 @@
   "dependencies": {
     "async": "1.5.x",
     "cheerio": "0.20.x",
-    "node-horseman": "2.8.x",
-    "webdriverio": "4.0.x"
+    "node-horseman": "2.8.x"
   },
   "devDependencies": {
     "mocha": "2.4.x"
