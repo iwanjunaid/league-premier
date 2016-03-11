@@ -1,0 +1,34 @@
+{
+  "name": "league-premiere",
+  "version": "1.0.0",
+  "description": "Scraper for Premiere League",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test/**/*.spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwanjunaid/league-premiere.git"
+  },
+  "keywords": [
+    "football",
+    "league",
+    "premiere",
+    "horseman"
+  ],
+  "author": "Kurniawan Junaidy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwanjunaid/league-premiere/issues"
+  },
+  "homepage": "https://github.com/iwanjunaid/league-premiere#readme",
+  "dependencies": {
+    "async": "1.5.x",
+    "cheerio": "0.20.x",
+    "node-horseman": "2.8.x",
+    "webdriverio": "4.0.x"
+  },
+  "devDependencies": {
+    "mocha": "2.4.x"
+  }
+}
