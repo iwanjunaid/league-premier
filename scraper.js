@@ -21,7 +21,7 @@ Scraper.prototype.init = function(initCb) {
     function(cb) {
       fs.readdir('helpers', function(err, files) {
         files.forEach(function(file) {
-            var module = require('./' + path.join('helpers', file))(self);
+            var module = require(path.join(__dirname, 'helpers', file))(self);
             self.helpers[module.name] = module;
         });
 
