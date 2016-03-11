@@ -1,4 +1,4 @@
-describe('Premiere Leage', function() {
+describe('Scraping Premier League', function() {
   before(function(done) {
     scraper.init(function() {
       done();

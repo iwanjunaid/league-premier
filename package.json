@@ -1,14 +1,14 @@
 {
-  "name": "league-premiere",
+  "name": "league-premier",
   "version": "1.1.2",
-  "description": "Scraper for Premiere League",
+  "description": "Scraper for Premier League",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha test/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iwanjunaid/league-premiere.git"
+    "url": "git+https://github.com/iwanjunaid/league-premier.git"
   },
   "keywords": [
     "football",
@@ -19,9 +19,9 @@
   "author": "Kurniawan Junaidy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iwanjunaid/league-premiere/issues"
+    "url": "https://github.com/iwanjunaid/league-premier/issues"
   },
-  "homepage": "https://github.com/iwanjunaid/league-premiere#readme",
+  "homepage": "https://github.com/iwanjunaid/league-premier#readme",
   "dependencies": {
     "async": "1.5.x",
     "cheerio": "0.20.x",

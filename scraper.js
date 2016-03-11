@@ -35,7 +35,7 @@ Scraper.prototype.init = function(initCb) {
 
 Scraper.prototype.info = function() {
   return {
-    name: 'premiere',
-    version: '1.0.0'
+    name: 'premier',
+    apiVersion: '1.0.0'
   };
 };
