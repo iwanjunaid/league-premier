@@ -19,10 +19,10 @@ Scraper.prototype.init = function(initCb) {
 
   async.waterfall([
     function(cb) {
-      fs.readdir('helpers', function(err, files) {
+      fs.readdir(path.join(__dirname, 'helpers'), function(err, files) {
         files.forEach(function(file) {
-            var module = require(path.join(__dirname, 'helpers', file))(self);
-            self.helpers[module.name] = module;
+          var module = require(path.join(__dirname, 'helpers', file))(self);
+          self.helpers[module.name] = module;
         });
 
         cb(err);
