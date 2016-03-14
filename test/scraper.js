@@ -5,6 +5,17 @@ describe('Scraping Premier League', function() {
     });
   });
 
+  describe('Check scraper', function() {
+      it('should returns proper info', function(done) {
+        var info = scraper.info();
+
+        assert.equal('premier', info.name);
+        assert.equal('1.0.1', info.apiVersion);
+        assert.equal('Premier League', info.label);
+        done();
+      });
+  });
+
   describe('Standings', function() {
     describe('Full', function() {
       var result = null;

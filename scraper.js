@@ -36,6 +36,7 @@ Scraper.prototype.init = function(initCb) {
 Scraper.prototype.info = function() {
   return {
     name: 'premier',
-    apiVersion: '1.0.0'
+    apiVersion: '1.0.1',
+    label: 'Premier League'
   };
 };
